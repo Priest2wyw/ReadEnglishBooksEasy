@@ -148,9 +148,9 @@ def trans2chinese_save(hashmap_sorted):
 
 
 if __name__  ==  "__main__":
-    
     pdfpath = './datafile/meetingminutes.pdf'
     concent = ReadPDFFile(pdfpath)
+    print("The number of this path‘s words is:", len(concent))
     # string_add = ""
     # for path in paths:
     #     f = open(path)
